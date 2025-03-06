@@ -11,7 +11,8 @@ def start_server(ip, port):
         print(f"Received packet from {addr}: {packet.decode('utf-8')}")
 
 if __name__ == "__main__":
-    server_ip = "10.129.2.173"  
+    # server_ip = "10.129.2.173"  
+    server_ip = "10.129.2.201"  
     server_port = 12345      
 
     start_server(server_ip, server_port)
